@@ -1,0 +1,136 @@
+body {
+    /* font-family: 'GFS Neohellenic', sans-serif; */
+}
+
+.gfs-neohellenic {
+    font-family: 'GFS Neohellenic', sans-serif;
+}
+
+.merriweather-sans {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header-section */
+.header-section{
+    padding: 10px 0px;
+    background-color: #3DAD9D;
+}
+.header-title{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 32px;
+    margin: 0px;
+}
+
+
+/* second-section */
+
+.second-section{
+    padding: 10px 0px;
+}
+.elementor-heading-title{
+    color: #000000;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 20px;
+
+}
+.elementor-widget-container{
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.descriptions ul{
+    list-style: none;
+    padding: 0px;
+}
+.descriptions ul li{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.copies{
+    background-color: #3DAD9D;
+}
+
+.free-title{
+    color: #000000;
+    
+    font-weight: 600;
+    font-size: 40px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.total-value{
+
+    color: #FF0000;
+    font-weight: 600;
+    font-size: 32px;
+}
+.price {
+    color: #008000;
+    font-family: "Arial", Sans-serif;
+    font-size: 73px;
+    font-weight: 800;
+}
+
+.elementor-button {
+    font-family: "Inter", Sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    fill: #000000;
+    color: #000000;
+    background-color: #06FF9A;
+    border-style: solid;
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 100%;
+}
+.pay img{
+    width: 490px;
+}
+
+
+.see{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.knows{
+        color: #E71D8D;
+        font-weight: 600;
+        margin-bottom: 15px;
+}
+.ability{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+}
+
+
+@media(max-width:990px){
+    .pay img{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+    }
+    
+}
