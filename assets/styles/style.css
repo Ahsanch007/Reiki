@@ -12,7 +12,9 @@ body {
 .poppins {
     font-family: 'Poppins', sans-serif;
 }
-
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
 
 .montserrat {
     font-family: 'Montserrat', sans-serif;
@@ -125,12 +127,75 @@ body {
 }
 
 
+
+.deal{
+    color: #FF0000;
+    font-size: 32px;
+
+    font-weight: 600;
+}
+.footer-section{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #ED4FBA 0%, #0276A5E3 100%);
+    opacity: 0.9;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    padding: 40px 0px;
+}
+
+
+
+.contact-info{
+    color: #FFFFFF;
+    font-family: "Outfit", Sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+.info p{
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 0.4px;
+}
+
+.yarns,.address{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 0.4px;
+    color: white;
+}
+.yarns::after{
+    content: "";
+    height: 49%;
+    border-color: #ddd;
+    border-left-style: solid;
+    border-left-width: 1px;
+    width: auto;
+    left: auto;
+    right: auto;
+    position: relative;
+    height: 100%;
+    right: -8px;
+}
+
 @media(max-width:990px){
     .pay img{
         width: 100%;
     }
     img{
         width: 100%;
+    }
+    .header-title,
+    .free-title{
+        font-size: 20px;
+    }
+    .elementor-heading-title{
+        font-size: 24px;
+    }
+    .price{
+        font-size: 39px;
     }
     
 }
