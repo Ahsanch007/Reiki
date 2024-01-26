@@ -179,7 +179,12 @@ body {
     height: 100%;
     right: -8px;
 }
-
+.elementor-widget-container p{
+    font-size: 18px;
+}
+.elementor-widget-container ul li{
+    font-size: 18px;
+}
 @media(max-width:990px){
     .pay img{
         width: 100%;
