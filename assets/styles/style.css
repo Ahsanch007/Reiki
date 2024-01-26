@@ -27,7 +27,7 @@ body {
 }
 .header-title{
     color: #FFFFFF;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 32px;
     margin: 0px;
 }
@@ -68,7 +68,7 @@ body {
 .free-title{
     color: #000000;
     
-    font-weight: 600;
+    font-weight: 900;
     font-size: 40px;
     text-decoration: underline;
     font-style: italic;
